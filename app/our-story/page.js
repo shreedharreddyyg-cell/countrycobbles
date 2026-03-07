@@ -8,7 +8,7 @@ return(
 
 <section className="text-center pt-32 pb-16">
 
-<h1 className="text-7xl font-allura">
+<h1 className="text-black text-7xl font-allura">
 Our Story
 </h1>
 

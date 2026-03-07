@@ -8,7 +8,7 @@ return(
 
 <section className="text-center pt-32 pb-20">
 
-<h1 className="text-7xl font-allura">
+<h1 className="text-black text-7xl font-allura">
 Services
 </h1>
 
@@ -24,7 +24,7 @@ Services
 
 <div className="p-10 border border-gray-200 rounded-xl hover:shadow-xl transition">
 
-<h2 className="text-2xl mb-4">
+<h2 className=" text-black text-2xl mb-4">
 3D Rendering
 </h2>
 
@@ -38,7 +38,7 @@ translate design concepts into clear visual form.
 
 <div className="p-10 border border-gray-200 rounded-xl hover:shadow-xl transition">
 
-<h2 className="text-2xl mb-4">
+<h2 className="text-black text-2xl mb-4">
 Mood Boards
 </h2>
 
@@ -52,7 +52,7 @@ guide the visual direction of your interior.
 
 <div className="p-10 border border-gray-200 rounded-xl hover:shadow-xl transition">
 
-<h2 className="text-2xl mb-4">
+<h2 className=" text-black text-2xl mb-4">
 Electrical Plan
 </h2>
 
