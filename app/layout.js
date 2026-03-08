@@ -28,7 +28,7 @@ return (
 <html lang="en">
 
 <body className={`bg-[#f5fffa] ${geistSans.variable} ${geistMono.variable}`}>
-
+  
 {/* Hide header on admin pages */}
 {!isAdmin && <Header />}
 

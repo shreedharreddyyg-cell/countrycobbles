@@ -1,5 +1,11 @@
 import Link from "next/link";
 import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
+import { Allura } from "next/font/google";
+
+const allura = Allura({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function Footer(){
 
@@ -12,10 +18,8 @@ return(
 
 {/* Brand */}
 
-<h2 className=" text-black text-3xl font-semibold tracking-wide mb-6">
-
+<h2 className={`${allura.className} text-black text-5xl tracking-wide mb-6`}>
 Country Cobbles
-
 </h2>
 
 <p className="text-gray-600 max-w-xl mx-auto leading-relaxed mb-12">

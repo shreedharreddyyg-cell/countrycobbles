@@ -2,9 +2,15 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Allura } from "next/font/google";
+
+const allura = Allura({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 export default function Header() {
-
+ 
 const pathname = usePathname();
 
 const menuItems = [
@@ -23,9 +29,10 @@ return (
 
 <div className="max-w-7xl mx-auto flex items-center justify-between px-8 py-5">
 
-{/* Logo */}
-
-<Link href="/" className="text-black text-2xl font-semibold tracking-wide">
+<Link
+href="/"
+className={`${allura.className} text-[50px] tracking-wide text-black`}
+>
 Country Cobbles
 </Link>
 

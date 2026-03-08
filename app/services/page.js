@@ -6,9 +6,9 @@ return(
 
 {/* PAGE TITLE */}
 
-<section className="text-center pt-32 pb-20">
+<section className="text-center pt-50 pb-20">
 
-<h1 className="text-black text-7xl font-allura">
+<h1 className="text-black text-5xl font-allura">
 Services
 </h1>
 
