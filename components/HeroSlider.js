@@ -2,6 +2,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -21,11 +22,29 @@ const images = [
 
 return (
 
-<div className="w-full h-[100vh]">
+<div className="w-full h-[100vh] relative">
+
+{/* CUSTOM ARROWS */}
+
+<div className="hero-prev absolute left-3 bottom-1/9 -translate-y-1/2 z-20 bg-white/80 hover:bg-white p-3 rounded-full shadow cursor-pointer transition">
+
+<FaChevronLeft className="text-black text-sm" />
+
+</div>
+
+<div className="hero-next absolute right-3 bottom-1/9 -translate-y-1/2 z-20 bg-white/80 hover:bg-white p-3 rounded-full shadow cursor-pointer transition">
+
+<FaChevronRight className="text-black text-sm" />
+
+</div>
+
 
 <Swiper
 modules={[Navigation, Pagination, Autoplay]}
-navigation
+navigation={{
+prevEl: ".hero-prev",
+nextEl: ".hero-next"
+}}
 pagination={{ clickable: true }}
 autoplay={{ delay: 4000 }}
 loop={true}

@@ -4,23 +4,26 @@ return(
 
 <div className="bg-[#f5fffa]">
 
+
 {/* PAGE TITLE */}
 
-<section className="text-center pt-50 pb-20">
+<section className="text-center pt-32 md:pt-44 pb-16 md:pb-20">
 
-<h1 className="text-black text-5xl font-allura">
+<h1 className="text-black text-4xl md:text-5xl font-allura">
 Our Story
 </h1>
 
 </section>
 
 
+{/* MAIN CONTENT */}
 
-{/* STORY INTRO */}
+<section className="max-w-3xl mx-auto px-6 md:px-8 pb-24 md:pb-32">
 
-<section className="max-w-3xl mx-auto px-6 text-center mb-20">
+<div className="p-8 md:p-10 border border-gray-200 hover:shadow-xl transition duration-500">
 
-<p className="text-2xl leading-relaxed text-gray-800">
+
+<p className="text-xl md:text-2xl text-gray-800 leading-relaxed tracking-wide mb-10 md:mb-12 text-center">
 
 Country Cobbles was born from a simple belief —
 spaces should feel like home even before you move in.
@@ -31,15 +34,8 @@ and every element feels like it belongs to you.
 
 </p>
 
-</section>
 
-
-
-{/* STORY BODY */}
-
-<section className="max-w-3xl mx-auto px-6 mb-24">
-
-<p className="text-lg text-gray-700 leading-relaxed mb-6">
+<p className="text-lg text-gray-700 leading-relaxed tracking-wide mb-8 md:mb-10">
 
 We grew up falling in love with natural materials,
 earthy tones, and the beauty that comes from things made with heart.
@@ -50,34 +46,23 @@ tradition while feeling beautifully personal.
 
 </p>
 
-</section>
 
+{/* MANIFESTO */}
 
+<div className="text-center my-16 md:my-20">
 
-{/* MANIFESTO QUOTE */}
+<h2 className="text-3xl md:text-4xl leading-tight text-black">
 
-<section className="text-center py-24">
-
-<h2 className="text-4xl md:text-5xl leading-tight max-w-2xl mx-auto">
-
-At Country Cobbles,
+At Country Cobbles,  
 design is not about trends.
-
-<span className="block mt-4">
 It is about soul.
-</span>
 
 </h2>
 
-</section>
+</div>
 
 
-
-{/* STORY CONTINUATION */}
-
-<section className="max-w-3xl mx-auto px-6 mb-24">
-
-<p className="text-lg text-gray-700 leading-relaxed mb-6">
+<p className="text-lg text-gray-700 leading-relaxed tracking-wide mb-8 md:mb-10">
 
 We believe every person carries their own taste —
 a quiet preference, a bold choice, a nostalgic feeling,
@@ -86,7 +71,8 @@ Our work begins with listening to that.
 
 </p>
 
-<p className="text-lg text-gray-700 leading-relaxed">
+
+<p className="text-lg text-gray-700 leading-relaxed tracking-wide mb-8 md:mb-10">
 
 Some people know exactly what they want.
 Some are still finding their way.
@@ -97,15 +83,8 @@ your story deserves a space that reflects it.
 
 </p>
 
-</section>
 
-
-
-{/* GLOBAL INSPIRATIONS */}
-
-<section className="text-center py-20">
-
-<p className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto mb-10">
+<p className="text-lg text-gray-700 leading-relaxed tracking-wide mb-8 md:mb-10">
 
 Across the world, every culture has its own way of shaping a home —
 the mosaics of Morocco, the rustic hues of the Mediterranean,
@@ -114,7 +93,8 @@ the eclectic charm of Istanbul, the soothing palettes of the English countryside
 
 </p>
 
-<p className="text-lg text-gray-600 max-w-3xl mx-auto">
+
+<p className="text-lg text-gray-700 leading-relaxed tracking-wide mb-8 md:mb-10">
 
 We adore these styles. We study them.
 And we bring their essence into your space —
@@ -122,15 +102,8 @@ not by copying, but by understanding why they feel the way they do.
 
 </p>
 
-</section>
 
-
-
-{/* FINAL STATEMENT */}
-
-<section className="max-w-3xl mx-auto px-6 text-center pb-32">
-
-<p className="text-lg text-gray-700 leading-relaxed">
+<p className="text-lg text-gray-700 leading-relaxed tracking-wide mb-8 md:mb-10 text-center">
 
 Our job is simple:
 to transform your home into a place where your heart rests.
@@ -140,32 +113,33 @@ and the design feels undeniably you.
 
 </p>
 
-<p className="text-lg text-gray-700 leading-relaxed mt-6">
+
+<p className="text-lg text-gray-700 leading-relaxed tracking-wide mb-8 md:mb-10">
 
 At Country Cobbles, we don’t just decorate.
 We curate.
 We translate emotions into interiors.
 We blend global inspiration with your personal story.
-And we ensure the comfort you need —
-from the warmth of natural elements to the luxury of rich fabrics,
-from intricate details to serene minimalism.
 
 </p>
 
-<p className="text-lg text-gray-700 leading-relaxed mt-6">
+
+<p className="text-lg text-gray-700 leading-relaxed tracking-wide text-center">
 
 This is who we are.
 This is what we love.
-And this is the world we want to create with you —
-a world where your space speaks your story,
+
+A world where your space speaks your story,
 and where you always feel like you belong.
 
 </p>
+
+
+</div>
 
 </section>
 
 </div>
 
 )
-
 }

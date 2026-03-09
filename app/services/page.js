@@ -70,8 +70,7 @@ to ensure functionality and ambience throughout the space.
 
 
 {/* COLLABORATION SECTION */}
-
-<section className="max-w-4xl mx-auto px-6 pb-24">
+<section className="max-w-4xl mx-auto px-6 pb-32">
 
 <p className="text-lg text-gray-700 leading-relaxed mb-6">
 
@@ -80,20 +79,13 @@ with architects and contractors from the very beginning.
 
 </p>
 
-<p className="text-lg text-gray-700 leading-relaxed">
+<p className="text-lg text-gray-700 leading-relaxed mb-6">
 
 Being involved early allows us to ensure that a space works practically,
 emotionally, and aesthetically, even before the foundation is laid.
 
 </p>
 
-</section>
-
-
-
-{/* PLANNING APPROACH */}
-
-<section className="max-w-4xl mx-auto px-6 pb-24">
 
 <p className="text-lg text-gray-700 leading-relaxed mb-6">
 
@@ -104,20 +96,13 @@ furniture placement, and material selections.
 
 </p>
 
-<p className="text-lg text-gray-700 leading-relaxed">
+<p className="text-lg text-gray-700 leading-relaxed mb-6">
 
 This ensures that the flow of the home, the comfort of each corner,
 and the overall harmony of the space are considered from the outset.
 
 </p>
 
-</section>
-
-
-
-{/* DESIGN DETAIL */}
-
-<section className="max-w-4xl mx-auto px-6 pb-24">
 
 <p className="text-lg text-gray-700 leading-relaxed mb-6">
 
@@ -126,7 +111,7 @@ environment that feels natural, effortless, and truly personal.
 
 </p>
 
-<p className="text-lg text-gray-700 leading-relaxed">
+<p className="text-lg text-gray-700 leading-relaxed mb-6">
 
 So often, the practical details that make a home comfortable — storage,
 circulation, lighting moods, window treatments, and furniture scale —
@@ -135,19 +120,12 @@ time-consuming and expensive.
 
 </p>
 
-<p className="text-lg text-gray-700 leading-relaxed">
+<p className="text-lg text-gray-700 leading-relaxed mb-6">
 
 Our role is to prevent that, and to build clarity from day one.
 
 </p>
 
-</section>
-
-
-
-{/* FUTURE COLLECTION */}
-
-<section className="max-w-4xl mx-auto px-6 pb-32">
 
 <p className="text-lg text-gray-700 leading-relaxed mb-6">
 
@@ -166,9 +144,6 @@ and spaces that feel truly personal.
 </p>
 
 </section>
-
-
-
 </div>
 
 )

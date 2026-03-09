@@ -1,11 +1,8 @@
-"use client";
-
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { usePathname } from "next/navigation";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import HeaderFooterWrapper from "../components/HeaderFooterWrapper";
+import ShareButtons from "../components/ShareButtons";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,29 +14,26 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "Country Cobbles",
+  description: "Interior Design Studio",
+};
+
 export default function RootLayout({ children }) {
-
-const pathname = usePathname()
-
-// detect admin pages
-const isAdmin = pathname.startsWith("/admin")
 
 return (
 <html lang="en">
 
 <body className={`bg-[#f5fffa] ${geistSans.variable} ${geistMono.variable}`}>
-  
-{/* Hide header on admin pages */}
-{!isAdmin && <Header />}
 
+<HeaderFooterWrapper>
 {children}
+</HeaderFooterWrapper>
 
-{/* Hide footer on admin pages */}
-{!isAdmin && <Footer />}
+<ShareButtons />
 
 </body>
 
 </html>
 )
-
 }
